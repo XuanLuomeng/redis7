@@ -1,4 +1,4 @@
-package com.gduf.mybatis_generator.config;
+package com.gduf.redis_distriuted_lock2.config;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.BeansException;
