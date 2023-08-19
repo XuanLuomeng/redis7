@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/mybatis_generator/pom.xml" />
         <option value="$PROJECT_DIR$/redis_distriuted_lock2/pom.xml" />
         <option value="$PROJECT_DIR$/redis_distriuted_lock3/pom.xml" />
+        <option value="$PROJECT_DIR$/red_lock/pom.xml" />
       </list>
     </option>
   </component>
