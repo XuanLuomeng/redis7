@@ -5,16 +5,9 @@ import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
 import org.redisson.config.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * @author LuoXuanwei
@@ -85,7 +78,7 @@ public class CacheConfiguration {
     {
         Config config = new Config();
 
-        config.useSingleServer().setAddress("redis://192.168.111.147:6379").setDatabase(0);
+        config.useSingleServer().setAddress("redis://192.168.190.100:6379").setDatabase(0);
 
         return (Redisson) Redisson.create(config);
     }*/
